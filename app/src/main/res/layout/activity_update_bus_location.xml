@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobileapplication.urbenadmin.UpdateBusLocation">
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Driver Email"
+        android:id="@+id/driverEmail"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/abdullahPur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdullahpur"/>
+
+        <Button
+            android:id="@+id/azampur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azampur"/>
+
+        <Button
+            android:id="@+id/jashimuddin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jashimuddin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/airport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airport"/>
+
+        <Button
+            android:id="@+id/khilkhet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khilkhet"/>
+
+        <Button
+            android:id="@+id/bGate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bashundhara Gate"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/nBazar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NatunBazar"/>
+
+        <Button
+            android:id="@+id/rampura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rampura"/>
+
+        <Button
+            android:id="@+id/malibagh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malibagh"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/motijheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motijheel"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/orField"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"/>
+
+    <ListView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/detailLocation"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>
